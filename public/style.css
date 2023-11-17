@@ -52,3 +52,16 @@ td , th{
     border: 2px solid rgba(0, 0, 0, 0.703);
     text-align: center;
 }
+
+@media screen and (max-width: 768px) {
+    .search_form{
+        width: 95%;
+    }
+    .search_form label{
+        width: 6rem;
+    }
+    .input{
+        margin: 1rem 1rem;
+    }
+    
+}
