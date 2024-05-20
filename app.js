@@ -3,7 +3,7 @@ const axios = require('axios');
 const path = require('path')
 const bodyParser = require("body-parser")
 const app = express();
-const PORT = process.env.PORT || 3000;
+const PORT = process.env.PORT || 8000;
 
 // Set up middleware to serve static files from the 'public' directory
 app.use(express.static('public'));
