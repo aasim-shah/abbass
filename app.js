@@ -15,6 +15,8 @@ app.get('/', async (req, res) => {
     res.sendFile(htmlFilePath)
 
 });
+
+
 app.post('/search', async (req, res) => {
    try {
     console.log(req.body)
